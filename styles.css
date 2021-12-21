@@ -1,0 +1,79 @@
+
+body {
+    background-color: black;
+}
+
+#mainHead {
+    color: lightblue;
+    text-align: center;
+    background-color: black;
+    font-family: "Georgia", serif;
+}
+
+h2 {
+    border-style: solid;
+    border-color: black;
+    color: red;
+    text-align: left;
+    background-color: powderblue;
+    font-family: "Georgia", serif;
+    width: 30%;
+    margin-left: 3%;
+    padding-left: 6px;
+}
+
+/* sub heading, Splay Trees page
+*/
+h3 {
+    color: white;
+    margin-left: 10%;
+}
+
+/*
+Begin navBar 
+*/
+
+
+/* Nav Bar  */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  /*box-shadow: 10px 10px 5px grey;*/
+}
+
+li {  
+    display: inline;
+    /*border-right: 1px solid #bbb; 
+    box-shadow: 10px 10px 5px grey;*/
+    border-color: white;
+    border-style: ridge;
+    padding: 12px;
+}
+
+.navBarLink {  /* class, dependent on li  */
+
+    /*background-color: #dddddd;*/
+    font-weight: bold;
+    color: white;
+}
+
+a { color: white; } /* navBarLink */
+
+
+.navBarLinkActive {
+    all: inherit;
+    border: none;
+    background-color: rgb(209, 229, 231);
+}
+
+/*
+End navBar 
+*/
+
+
+.leaf {
+    background-color: beige;
+    border-color: green;
+    padding: 8px;
+}

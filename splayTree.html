@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <script src="splayTree.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 id="mainHead">Hello!</h1>
+        <br>
+        <ul id="navBar">
+            <li>
+                <a id="linkOne" class="navBarLink" 
+                href="website.html">Home </a> 
+            </li>   
+            <li>
+                <a id="linkTwo" class="navBarLinkActive" 
+                href="splayTree.html"> Splay Trees</a>  
+            </li>
+            <li>
+                <a id="linkThree" class="navBarLink">
+                    Implied Volatility Surface ... </a>
+            </li>
+            <li>
+                <a id="linkFour" class="navBarLink" > 
+                    Machine Learning Demo ...</a>  
+            </li>
+        </ul>
+        <h2 > Splay Trees</h2>
+        <h3 id="splayTreeClick" 
+        onclick="generateSplayTree()">Click here</h3>
+        <h3 onmouseover="mOver(this)" onmouseout="mOut(this)"
+        > Mouse over </h3>
+        <br>
+        <leaf id="root" class="leaf"> Root </leaf>
+    </body>
+</html>
